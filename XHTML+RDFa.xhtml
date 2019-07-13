@@ -56,7 +56,7 @@
                     <ol>
                       <li>
                         <a href="#section-2a">
-                          section 2a heading</a>
+                          what is RDF? and why RDFa?</a>
                       </li>
                     </ol>
                   </li>
@@ -199,7 +199,7 @@
           </blockquote>
           <div style="text-align: justify">
             I&#8217;m not previously familiar with WHATWG, so to start with, I&#8217;m just doing some casual reading, but still with my goal in mind, to learn more about anything that might help me with the XHTML+RDFa question.
-            I&#8217;m going to give a few somewhat random quotes from the &#8220;HTML Standard&#8221; page of their website.[<a href="#ref2">2</a>]
+            I&#8217;m going to give a few somewhat random quotes from the &#8220;HTML Living Standard&#8221; page of their website.[<a href="#ref2">2</a>]
             Their
             <a href="https://html.spec.whatwg.org/multipage/introduction.html#history-2" target="_blank">
               History section</a>
@@ -245,11 +245,14 @@
             references
           </h4>
           <ol>
-            <li id="ref1">&#8220;FAQ — WHATWG.&#8221;
+            <li id="ref1">
+              &#8220;FAQ — WHATWG.&#8221;
               <a href="https://whatwg.org/faq#what-is-the-whatwg" target="_blank">
                 https://whatwg.org/faq#what-is-the-whatwg</a>.
             </li>
-            <li id="ref2">&#8220;HTML Standard.&#8221; 2019. July 12, 2019.
+            <li id="ref2">
+              &#8220;HTML Standard.&#8221;
+              2019. July 12, 2019.
               <a href="https://html.spec.whatwg.org/multipage/" target="_blank">
                 https://html.spec.whatwg.org/multipage/</a>.
             </li>
@@ -276,11 +279,30 @@
         </header>
         <section id="section-2a">
           <h4 style="text-align: center">
-            section 2a heading
+            what is RDF? and why RDFa?
           </h4>
           <div style="text-align: justify">
-            text
+            From the
+            <a href="https://www.w3.org/TR/rdf11-primer/#section-Introduction" target="_blank">
+              Introduction</a>
+            of W3C&#8217;s Working Group Note RDF 1.1 Primer: &#8220;The Resource Description Framework (RDF) is a framework for expressing information about resources.
+            Resources can be anything, including documents, people, physical objects, and abstract concepts.&#8221;
+            From the
+            <a href="https://www.w3.org/TR/rdfa-core/#s_motivation" target="_blank">
+              Motivation</a>
+            section of their related Recommendation RDFa Core 1.1,
           </div>
+          <blockquote style="text-align: justify">
+            RDF/XML provides sufficient flexibility to represent all of the abstract concepts in RDF.
+            However, it presents a number of challenges; first it is difficult or impossible to validate documents that contain RDF/XML using XML Schemas or DTDs, which therefore makes it difficult to import RDF/XML into other markup languages.
+          </blockquote>
+          <div style="text-align: justify">
+            And,
+          </div>
+          <blockquote style="text-align: justify">
+            RDFa alleviates the pressure on markup language designers to anticipate all the structural requirements users of their language might have, by outlining a new syntax for RDF that relies only on attributes.
+            By adhering to the concepts and rules in this specification, language designers can import RDFa into their environment with a minimum of hassle and be confident that semantic data will be extractable from their documents by conforming processors.[<a href="#ref3">3</a>]
+          </blockquote>
         </section>
         <br /><hr style="width: 20.6%" />
         <footer>
@@ -288,9 +310,13 @@
             references
           </h4>
           <ol>
-            <li id="ref3">reference 3.
-              <a href="" target="_blank">
-                link</a>.
+            <li id="ref3">
+              Adida, B. (Ed.), M. (Ed.) Birbeck, S. (Ed.) McCarron, and I. (Ed.) Herman.
+              2015.
+              &#8220;RDFa Core 1.1 - Third Edition.&#8221;
+              March 17, 2015.
+              <a href="https://www.w3.org/TR/rdfa-core/" target="_blank">
+                https://www.w3.org/TR/rdfa-core/</a>.
             </li>
           </ol>
         </footer>
